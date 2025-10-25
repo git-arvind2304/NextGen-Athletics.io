@@ -1,0 +1,20 @@
+@font-face {
+  font-family: Galldis;
+  src: url("../src/assets/fonts/Galldis.ttf");
+}
+
+@font-face {
+  font-family: Fredoka;
+  src: url("../src/assets/fonts/Fredoka-Regular.ttf");
+}
+
+
+
+@import "tailwindcss";
+
+  @theme{
+    --font-galldis:Galldis, "sans-serif "
+  }
+ @theme{
+    --font-fredoka:Fredoka, "sans-serif "
+  }
